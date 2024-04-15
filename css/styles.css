@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+/* font-family: "Lexend", sans-serif; */
+/* font-family: "Plus Jakarta Sans", sans-serif; */
+
+
+:root {
+    --red : #e93740;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar { 
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+
+
+.logo {
+    width: 150px;
+}
+
+.nav-items {
+    width: 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item { 
+    font-family: "Lexend" , sans-serif;
+}
+
+.nav-item:hover {
+    color: var(--red);
+    cursor: pointer;
+}
+
+.nav-buttons { 
+    width: 20%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nav-button{
+    font-family: "Lexend" , sans-serif;
+}
+
+li.nav-button:first-child {
+    color: var(--red);
+    padding: 10px 25px;
+}
+
+li.nav-button:first-child:hover {
+    cursor: pointer;
+    background-color: rgb(159, 0, 0);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+li.nav-button div {
+    background-color: var(--red);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+li.nav-button div:hover {
+    cursor: pointer;
+    background-color: rgb(159, 0, 0);
+}
+
+li.nav-button > i {
+    margin-right: 5px;
+}
