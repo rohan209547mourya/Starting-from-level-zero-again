@@ -141,9 +141,45 @@ h1 span {
     width: 30%;
     padding: 10px;
     font-size: 1.1rem;
+    background-color: white;
 }
 
 .hero-buttons button:first-child {
     background-color: var(--red);
     color: white;
+}
+
+.top-categories {
+    margin: 50px 0;
+}
+
+.heading {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading h2 {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.red-line {
+    display: flex;
+    width: 10%;
+    margin: auto;
+}
+
+.red-line div {
+    height: 5px;
+    width: 40%;
+    margin-left: 5px;
+    border-radius: 4px;
+    background-color: var(--red);
+}
+
+.red-line div:last-child {
+    width: 10%;
 }
