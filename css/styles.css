@@ -183,3 +183,34 @@ h1 span {
 .red-line div:last-child {
     width: 10%;
 }
+
+.categories {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.cat-icon {
+    border:1px solid red;
+    width: 30px ;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.cat-text {
+    margin-left: 20px;
+    font-weight: 500;
+}
